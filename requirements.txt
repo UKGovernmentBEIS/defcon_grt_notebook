@@ -2,3 +2,4 @@ inspect_ai
 pandas
 ipywidgets
 ipykernel
+openai
