@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BASE_URL = "https://vllm.i.staging-crucible.dreadnode.io/v1"
-API_KEY = os.getenv("CRUCIBLE_API_KEY")
+API_KEY = os.getenv("CRUCIBLE_API_KEY") 
 
 
 class CrucibleClient:
